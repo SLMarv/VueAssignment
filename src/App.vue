@@ -1,12 +1,10 @@
 <script setup>
-import Counter from './components/Counter.vue';
+import Counter from './components/Basic-website/Counter.vue';
+import Gallery from './components/Gallery/Gallery.vue';
 </script>
 
 <template>
-  <Counter item = "Eggs"/>
-  <Counter item = "Ham"/>
-  <Counter item = "Milk"/>
-
+  <Gallery style="width: 50%; margin: 0 auto;"/>
 </template>
 
 <style scoped>
