@@ -1,10 +1,11 @@
 <script setup>
 import Counter from './components/Basic-website/Counter.vue';
 import Gallery from './components/Gallery/Gallery.vue';
+import FlipCardTable from './components/TransitionCards/FlipCardTable.vue';
 </script>
 
 <template>
-  <Gallery style="width: 50%; margin: 0 auto;"/>
+  <FlipCardTable style="width: 50%; margin: 0 auto;"/>
 </template>
 
 <style scoped>
